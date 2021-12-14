@@ -5,9 +5,7 @@
 
 ### Objetivo
 
-1. Criar um clone do clássico Sokoban em Pygame...
-
-2. Em alternativa... do clássico x em Pygame.
+1. Fazer um clone do jogo Space Race em Pygame.
 
 ### Repositório de código
 
