@@ -34,12 +34,15 @@ evitando tocar nos pontos que se deslocam horizontalmente pelo ecrã.---*
 ### Pacotes
 
 - Pygame
+- math
 
 ### Tarefas
 
-1. carregar os níveis
-1. desenhar a matriz do nível
-1. ler teclas e mover as peças
-2. verificar se jogador chegou ao fim do nível
+1. definir movimento da nave
+2. nave volta a baixo quando chega ao topo do nível (e pontuação aumenta)
+3. adicionar "estrelas"
+4. adicionar contacto com as estrelas, voltando ao início se acontecer
+5. adicionar menu principal
+6. adicionar menu de replay
 
 - Atualizado a última vez em 07/12/2021
