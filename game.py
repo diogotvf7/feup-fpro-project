@@ -1,6 +1,7 @@
 import pygame
 import math
 import imps as ip
+import os
 
 
 screen_size = (600, 600)
@@ -10,14 +11,14 @@ pygame.init()
 
 screen = pygame.display.set_mode(screen_size)
 
-menu = pygame.image.load('Menu.jpg')
-button = pygame.image.load('Button.jpg')
+menu = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\Menu.jpg')
+button = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\Button.jpg')
 button.set_colorkey(ip.color['black'])
 
-player1 = pygame.image.load('ss.png')
+player1 = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\ss.png')
 player1.set_colorkey(ip.color['black'])
 
-player2 = pygame.image.load('ss.png')
+player2 = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\ss.png')
 player2.set_colorkey(ip.color['black'])
 
 running, in_menu, in_game, end = True, True, False, False
@@ -39,7 +40,7 @@ while running:
     i = 0
     j = 0
     time = 0
-    time_limit = 60 # seconds
+    time_limit = 30 # seconds
 
     while in_menu:
 
@@ -207,20 +208,20 @@ while running:
 
         if score_player1 == score_player2:
 
-            bg = pygame.image.load('draw.jpg')
+            bg = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\draw.jpg')
             screen.blit(bg, (0, 0))
 
         else:
 
-            bg = pygame.image.load('the_winner_is.jpg')
+            bg = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\the_winner_is.jpg')
 
             if score_player1 > score_player2:
 
-                winner = pygame.image.load('Player 1.jpg')
+                winner = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\Player 1.jpg')
 
             elif score_player2 > score_player1:
 
-                winner = pygame.image.load('Player 2.jpg')
+                winner = pygame.image.load(os.path.abspath(os.getcwd()) + '\\Images\\Player 2.jpg')
 
             winner.set_colorkey(ip.color['black'])
             screen.blit(bg, (0, 0))

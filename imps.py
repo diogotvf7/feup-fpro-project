@@ -1,4 +1,6 @@
 import pygame
+import os
+
 
 color = {
     
@@ -9,27 +11,27 @@ color = {
 
 numbers = {
 
-    0: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\0.jpg',
-    1: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\1.jpg',
-    2: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\2.jpg',
-    3: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\3.jpg',
-    4: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\4.jpg',
-    5: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\5.jpg',
-    6: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\6.jpg',
-    7: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\7.jpg',
-    8: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\8.jpg',
-    9: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\9.jpg',
-    10: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\10.jpg',
-    11: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\11.jpg',
-    12: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\12.jpg',
-    13: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\13.jpg',
-    14: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\14.jpg',
-    15: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\15.jpg',
-    16: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\16.jpg',
-    17: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\17.jpg',
-    18: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\18.jpg',
-    19: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\19.jpg',
-    20: r'C:\\Users\diogo\\OneDrive\Documents\Space Race\\numbers\\20.jpg'
+    0: os.path.abspath(os.getcwd()) + '\\numbers\\0.jpg',
+    1: os.path.abspath(os.getcwd()) + '\\numbers\\1.jpg',
+    2: os.path.abspath(os.getcwd()) + '\\numbers\\2.jpg',
+    3: os.path.abspath(os.getcwd()) + '\\numbers\\3.jpg',
+    4: os.path.abspath(os.getcwd()) + '\\numbers\\4.jpg',
+    5: os.path.abspath(os.getcwd()) + '\\numbers\\5.jpg',
+    6: os.path.abspath(os.getcwd()) + '\\numbers\\6.jpg',
+    7: os.path.abspath(os.getcwd()) + '\\numbers\\7.jpg',
+    8: os.path.abspath(os.getcwd()) + '\\numbers\\8.jpg',
+    9: os.path.abspath(os.getcwd()) + '\\numbers\\9.jpg',
+    10: os.path.abspath(os.getcwd()) + '\\numbers\\10.jpg',
+    11: os.path.abspath(os.getcwd()) + '\\numbers\\11.jpg',
+    12: os.path.abspath(os.getcwd()) + '\\numbers\\12.jpg',
+    13: os.path.abspath(os.getcwd()) + '\\numbers\\13.jpg',
+    14: os.path.abspath(os.getcwd()) + '\\numbers\\14.jpg',
+    15: os.path.abspath(os.getcwd()) + '\\numbers\\15.jpg',
+    16: os.path.abspath(os.getcwd()) + '\\numbers\\16.jpg',
+    17: os.path.abspath(os.getcwd()) + '\\numbers\\17.jpg',
+    18: os.path.abspath(os.getcwd()) + '\\numbers\\18.jpg',
+    19: os.path.abspath(os.getcwd()) + '\\numbers\\19.jpg',
+    20: os.path.abspath(os.getcwd()) + '\\numbers\\20.jpg'
 
 }
 
