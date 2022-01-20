@@ -29,12 +29,13 @@ evitando tocar nos pontos que se deslocam horizontalmente pelo ecrã.---*
 
 ### UI
 
-![UI](ui.png)
+![UI](Menu.jpg)
 
 ### Pacotes
 
 - Pygame
 - math
+- os
 
 ### Tarefas
 
@@ -45,4 +46,4 @@ evitando tocar nos pontos que se deslocam horizontalmente pelo ecrã.---*
 5. adicionar menu principal
 6. adicionar menu de replay
 
-- Atualizado a última vez em 07/12/2021
+- Atualizado a última vez em 20/01/2022
